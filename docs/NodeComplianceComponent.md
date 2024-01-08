@@ -1,0 +1,161 @@
+# NodeComplianceComponent
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **string** | id of the node | 
+**Name** | **string** | Name of the node | 
+**Mode** | Pointer to **string** |  | [optional] 
+**Compliance** | **float32** | Directive compliance level | 
+**ComplianceDetails** | [**NodeComplianceComponentComplianceDetails**](NodeComplianceComponentComplianceDetails.md) |  | 
+**Values** | [**[]NodeComplianceComponentValuesInner**](NodeComplianceComponentValuesInner.md) |  | 
+
+## Methods
+
+### NewNodeComplianceComponent
+
+`func NewNodeComplianceComponent(id string, name string, compliance float32, complianceDetails NodeComplianceComponentComplianceDetails, values []NodeComplianceComponentValuesInner, ) *NodeComplianceComponent`
+
+NewNodeComplianceComponent instantiates a new NodeComplianceComponent object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewNodeComplianceComponentWithDefaults
+
+`func NewNodeComplianceComponentWithDefaults() *NodeComplianceComponent`
+
+NewNodeComplianceComponentWithDefaults instantiates a new NodeComplianceComponent object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetId
+
+`func (o *NodeComplianceComponent) GetId() string`
+
+GetId returns the Id field if non-nil, zero value otherwise.
+
+### GetIdOk
+
+`func (o *NodeComplianceComponent) GetIdOk() (*string, bool)`
+
+GetIdOk returns a tuple with the Id field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetId
+
+`func (o *NodeComplianceComponent) SetId(v string)`
+
+SetId sets Id field to given value.
+
+
+### GetName
+
+`func (o *NodeComplianceComponent) GetName() string`
+
+GetName returns the Name field if non-nil, zero value otherwise.
+
+### GetNameOk
+
+`func (o *NodeComplianceComponent) GetNameOk() (*string, bool)`
+
+GetNameOk returns a tuple with the Name field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetName
+
+`func (o *NodeComplianceComponent) SetName(v string)`
+
+SetName sets Name field to given value.
+
+
+### GetMode
+
+`func (o *NodeComplianceComponent) GetMode() string`
+
+GetMode returns the Mode field if non-nil, zero value otherwise.
+
+### GetModeOk
+
+`func (o *NodeComplianceComponent) GetModeOk() (*string, bool)`
+
+GetModeOk returns a tuple with the Mode field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMode
+
+`func (o *NodeComplianceComponent) SetMode(v string)`
+
+SetMode sets Mode field to given value.
+
+### HasMode
+
+`func (o *NodeComplianceComponent) HasMode() bool`
+
+HasMode returns a boolean if a field has been set.
+
+### GetCompliance
+
+`func (o *NodeComplianceComponent) GetCompliance() float32`
+
+GetCompliance returns the Compliance field if non-nil, zero value otherwise.
+
+### GetComplianceOk
+
+`func (o *NodeComplianceComponent) GetComplianceOk() (*float32, bool)`
+
+GetComplianceOk returns a tuple with the Compliance field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCompliance
+
+`func (o *NodeComplianceComponent) SetCompliance(v float32)`
+
+SetCompliance sets Compliance field to given value.
+
+
+### GetComplianceDetails
+
+`func (o *NodeComplianceComponent) GetComplianceDetails() NodeComplianceComponentComplianceDetails`
+
+GetComplianceDetails returns the ComplianceDetails field if non-nil, zero value otherwise.
+
+### GetComplianceDetailsOk
+
+`func (o *NodeComplianceComponent) GetComplianceDetailsOk() (*NodeComplianceComponentComplianceDetails, bool)`
+
+GetComplianceDetailsOk returns a tuple with the ComplianceDetails field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComplianceDetails
+
+`func (o *NodeComplianceComponent) SetComplianceDetails(v NodeComplianceComponentComplianceDetails)`
+
+SetComplianceDetails sets ComplianceDetails field to given value.
+
+
+### GetValues
+
+`func (o *NodeComplianceComponent) GetValues() []NodeComplianceComponentValuesInner`
+
+GetValues returns the Values field if non-nil, zero value otherwise.
+
+### GetValuesOk
+
+`func (o *NodeComplianceComponent) GetValuesOk() (*[]NodeComplianceComponentValuesInner, bool)`
+
+GetValuesOk returns a tuple with the Values field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetValues
+
+`func (o *NodeComplianceComponent) SetValues(v []NodeComplianceComponentValuesInner)`
+
+SetValues sets Values field to given value.
+
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
